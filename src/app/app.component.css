@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.table-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+::ng-deep th.mat-header-cell{
+    text-align: center !important;
+}
+::ng-deep td.mat-cell{
+    text-align: center !important;
+}
+.header{
+    text-align: center;
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: xx-large;    
+    font-weight: bold;
+}
+.inner-container > div{
+    padding: 10px;
+}
+.dialog-actions{
+    float: right;
+}
+.no-records{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.paginator{
+    width:100%;
+}
